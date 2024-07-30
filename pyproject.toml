@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fasthtml-template"
+version = "0.1.0"
+description = "A \"Hello World\" template for FastHTML"
+authors = ["Bob Ambrose <bambrose24@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-fasthtml = "^0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
